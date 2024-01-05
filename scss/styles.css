@@ -1,0 +1,386 @@
+/* 
+html5doctor.com Reset Stylesheet
+v1.6.1
+Last Updated: 2010-09-17
+Author: Richard Clark - http://richclarkdesign.com 
+Twitter: @rich_clark
+*/
+html, body, div, span, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+abbr, address, cite, code,
+del, dfn, em, img, ins, kbd, q, samp,
+small, strong, sub, sup, var,
+b, i,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, figcaption, figure,
+footer, header, hgroup, menu, nav, section, summary,
+time, mark, audio, video {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  outline: 0;
+  font-size: 100%;
+  vertical-align: baseline;
+  background: transparent; }
+
+body {
+  line-height: 1; }
+
+article, aside, details, figcaption, figure,
+footer, header, hgroup, menu, nav, section {
+  display: block; }
+
+nav ul {
+  list-style: none; }
+
+blockquote, q {
+  quotes: none; }
+
+blockquote:before, blockquote:after,
+q:before, q:after {
+  content: '';
+  content: none; }
+
+a {
+  margin: 0;
+  padding: 0;
+  font-size: 100%;
+  vertical-align: baseline;
+  background: transparent; }
+
+/* change colours to suit your needs */
+ins {
+  background-color: #ff9;
+  color: #000;
+  text-decoration: none; }
+
+/* change colours to suit your needs */
+mark {
+  background-color: #ff9;
+  color: #000;
+  font-style: italic;
+  font-weight: bold; }
+
+del {
+  text-decoration: line-through; }
+
+abbr[title], dfn[title] {
+  border-bottom: 1px dotted;
+  cursor: help; }
+
+table {
+  border-collapse: collapse;
+  border-spacing: 0; }
+
+/* change border colour to suit your needs */
+hr {
+  display: block;
+  height: 1px;
+  border: 0;
+  border-top: 1px solid #cccccc;
+  margin: 1em 0;
+  padding: 0; }
+
+input, select {
+  vertical-align: middle; }
+
+/* iPhone XR and newer */
+@media screen and (max-width: 767px) {
+  /* Add CSS rules specific to iPhone XR and newer here */
+  .banner-section, .company, .company-a-p2 {
+    display: flex;
+    justify-content: center;
+    align-items: center; }
+
+  .navbar {
+    background-color: #000;
+    height: 60px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 0 20px; }
+
+  .navbar-brand {
+    color: #fff;
+    font-size: 24px;
+    font-weight: bold;
+    text-decoration: none; }
+
+  .navbar-links {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    align-items: center; }
+
+  .navbar-link {
+    margin-left: 20px;
+    color: #fff;
+    text-decoration: none;
+    font-size: 16px;
+    font-weight: bold; }
+
+  .navbar-link:hover {
+    color: #999; }
+
+  .banner-section {
+    background-image: url(../assets/hero-banner_wqztwy_c_scale\,w_760.jpg);
+    width: 100%;
+    height: auto;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: contain; }
+
+  .company {
+    flex-direction: column;
+    gap: 20px; }
+
+  .company-main-banner-picture {
+    width: 500px;
+    height: 70px; }
+
+  .company-p1 {
+    font-size: 100px;
+    letter-spacing: 3px;
+    font-family: "Kelly Slab";
+    text-shadow: -1px -1px #ffffff; }
+
+  .company-a-p2 {
+    text-decoration: none;
+    width: 370px;
+    height: 50px;
+    background-color: rgba(0, 0, 0, 0.2);
+    box-shadow: 0 2px 5px 0 rgba(0, 0, 0, 0.9);
+    border-radius: 5px;
+    color: #ffffff;
+    font-size: x-large;
+    transition: all .25s ease-in-out; }
+    .company-a-p2:hover {
+      color: #ffffff;
+      letter-spacing: 0.5px;
+      background-color: rgba(0, 0, 0, 0.5); } }
+/* iPad and smaller tablets */
+@media screen and (min-width: 768px) and (max-width: 991px) {
+  /* Add CSS rules specific to iPads and smaller tablets here */
+  .banner-section, .company, .company-a-p2 {
+    display: flex;
+    justify-content: center;
+    align-items: center; }
+
+  .navbar {
+    background-color: #000;
+    height: 60px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 0 20px; }
+
+  .navbar-brand {
+    color: #fff;
+    font-size: 24px;
+    font-weight: bold;
+    text-decoration: none; }
+
+  .navbar-links {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    align-items: center; }
+
+  .navbar-link {
+    margin-left: 20px;
+    color: #fff;
+    text-decoration: none;
+    font-size: 16px;
+    font-weight: bold; }
+
+  .navbar-link:hover {
+    color: #999; }
+
+  .banner-section {
+    background-image: url(../assets/hero-banner_wqztwy_c_scale\,w_1374.jpg);
+    height: calc(100vh - 60px);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover; }
+
+  .company {
+    flex-direction: column;
+    gap: 20px; }
+
+  .company-main-banner-picture {
+    width: 500px;
+    height: 70px; }
+
+  .company-p1 {
+    font-size: 100px;
+    letter-spacing: 3px;
+    font-family: "Kelly Slab";
+    text-shadow: -1px -1px #ffffff; }
+
+  .company-a-p2 {
+    text-decoration: none;
+    width: 370px;
+    height: 50px;
+    background-color: rgba(0, 0, 0, 0.2);
+    box-shadow: 0 2px 5px 0 rgba(0, 0, 0, 0.9);
+    border-radius: 5px;
+    color: #ffffff;
+    font-size: x-large;
+    transition: all .25s ease-in-out; }
+    .company-a-p2:hover {
+      color: #ffffff;
+      letter-spacing: 0.5px;
+      background-color: rgba(0, 0, 0, 0.5); } }
+/* Laptop and medium-sized screens */
+@media screen and (min-width: 992px) and (max-width: 1199px) {
+  /* Add CSS rules specific to laptops and medium-sized screens here */
+  .banner-section, .company, .company-a-p2 {
+    display: flex;
+    justify-content: center;
+    align-items: center; }
+
+  .navbar {
+    background-color: #000;
+    height: 60px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 0 20px; }
+
+  .navbar-brand {
+    color: #fff;
+    font-size: 24px;
+    font-weight: bold;
+    text-decoration: none; }
+
+  .navbar-links {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    align-items: center; }
+
+  .navbar-link {
+    margin-left: 20px;
+    color: #fff;
+    text-decoration: none;
+    font-size: 16px;
+    font-weight: bold; }
+
+  .navbar-link:hover {
+    color: #999; }
+
+  .banner-section {
+    background-image: url(../assets/hero-banner_wqztwy_c_scale\,w_1882.jpg);
+    height: calc(100vh - 60px);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover; }
+
+  .company {
+    flex-direction: column;
+    gap: 20px; }
+
+  .company-main-banner-picture {
+    width: 500px;
+    height: 70px; }
+
+  .company-p1 {
+    font-size: 100px;
+    letter-spacing: 3px;
+    font-family: "Kelly Slab";
+    text-shadow: -1px -1px #ffffff; }
+
+  .company-a-p2 {
+    text-decoration: none;
+    width: 370px;
+    height: 50px;
+    background-color: rgba(0, 0, 0, 0.2);
+    box-shadow: 0 2px 5px 0 rgba(0, 0, 0, 0.9);
+    border-radius: 5px;
+    color: #ffffff;
+    font-size: x-large;
+    transition: all .25s ease-in-out; }
+    .company-a-p2:hover {
+      color: #ffffff;
+      letter-spacing: 0.5px;
+      background-color: rgba(0, 0, 0, 0.5); } }
+@media screen and (min-width: 1200px) {
+  /* Add CSS rules specific to PC and larger screens here */
+  .banner-section, .company, .company-a-p2 {
+    display: flex;
+    justify-content: center;
+    align-items: center; }
+
+  .navbar {
+    background-color: #000;
+    height: 60px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 0 20px; }
+
+  .navbar-brand {
+    color: #fff;
+    font-size: 24px;
+    font-weight: bold;
+    text-decoration: none; }
+
+  .navbar-links {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    align-items: center; }
+
+  .navbar-link {
+    margin-left: 20px;
+    color: #fff;
+    text-decoration: none;
+    font-size: 16px;
+    font-weight: bold; }
+
+  .navbar-link:hover {
+    color: #999; }
+
+  .banner-section {
+    background-image: url(../assets/hero-banner_wqztwy_c_scale\,w_2400.jpg);
+    height: calc(100vh - 60px);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover; }
+
+  .company {
+    flex-direction: column;
+    gap: 20px; }
+
+  .company-main-banner-picture {
+    width: 500px;
+    height: 70px; }
+
+  .company-p1 {
+    font-size: 100px;
+    letter-spacing: 3px;
+    font-family: "Kelly Slab";
+    text-shadow: -1px -1px #ffffff; }
+
+  .company-a-p2 {
+    text-decoration: none;
+    width: 370px;
+    height: 50px;
+    background-color: rgba(0, 0, 0, 0.2);
+    box-shadow: 0 2px 5px 0 rgba(0, 0, 0, 0.9);
+    border-radius: 5px;
+    color: #ffffff;
+    font-size: x-large;
+    transition: all .25s ease-in-out; }
+    .company-a-p2:hover {
+      color: #ffffff;
+      letter-spacing: 0.5px;
+      background-color: rgba(0, 0, 0, 0.5); } }
+
+/*# sourceMappingURL=styles.css.map */

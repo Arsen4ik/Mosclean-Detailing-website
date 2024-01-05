@@ -1,0 +1,33 @@
+@import "variables";
+
+@import "reset";
+
+
+
+
+
+
+
+
+@media screen and (min-width: 1200px) {
+    /* Add CSS rules specific to PC and larger screens here */
+    @import "large"; 
+  }
+
+/* Laptop and medium-sized screens */
+@media screen and (min-width: 992px) and (max-width: 1199px) {
+    /* Add CSS rules specific to laptops and medium-sized screens here */
+    @import "medium";
+}
+
+/* iPad and smaller tablets */
+@media screen and (min-width: 768px) and (max-width: 991px) {
+  /* Add CSS rules specific to iPads and smaller tablets here */
+  @import "tablet";
+}
+
+  /* iPhone XR and newer */
+  @media screen and (max-width: 767px) {
+    /* Add CSS rules specific to iPhone XR and newer here */
+    @import "small-default";
+  }
